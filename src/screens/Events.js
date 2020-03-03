@@ -7,7 +7,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 import { Event } from '.';
 
-const API_BASE_URL = 'http://api.openweathermap.org/data/2.5/forecast';
+const API_BASE_URL = 'https://api.openweathermap.org/data/2.5/forecast';
 const APP_ID = '9baeb2256032eb5d88358aac9577bae7';
 
 const StyledCard = styled(Paper)`
