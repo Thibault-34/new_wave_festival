@@ -52,7 +52,7 @@ const EventItem = ({ name, date, scene }) => {
 			<Typography style={{ flex: 1 }}>{name}</Typography>
 			{data.weather ? (
 				<img
-					src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
+					src={`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
 				/>
 			) : (
 				'loading...'
